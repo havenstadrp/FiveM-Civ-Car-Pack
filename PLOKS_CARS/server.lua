@@ -1,7 +1,7 @@
 -- Sets server list convar
 SetConvarServerInfo('tags', 'PLOKS_CARS')
 -- Setup for the version check
-updatePath = "/PLOKMJNB/FiveM-Civ-Car-Pack" -- your git user/repo path
+updatePath = "/havenstadrp/FiveM-Civ-Car-Pack" -- your git user/repo path
 -- Console stuff
 Citizen.CreateThread(function()
     if GetCurrentResourceName() ~= "PLOKS_CARS" then
